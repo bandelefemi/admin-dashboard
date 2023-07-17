@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client'
 import { registerLicense } from '@syncfusion/ej2-base';
 import { ContextProvider } from './contexts/ContextProvider'
 
-registerLicense('ORg4AjUWIQA/Gnt2VVhhQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkNhX35WcX1WQ2FbVEY=');
+registerLicense('ORg4AjUWIQA/Gnt2V1hhQlJAfVddXGVWfFN0RnNedV94flFAcC0sT3RfQF5jTn9UdkJiUH1dcXZdRw==');
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import React from 'react'
 import { BsCurrencyDollar } from 'react-icons/bs'
-import { GoPrimitiveDot } from 'react-icons/go'
+import { GoDotFill } from 'react-icons/go'
 import { Stacked, Pie, Button, SparkLine } from '../components'
 import { earningData, SparklineAreaData, ecomPieChartDat } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider'
@@ -70,14 +70,14 @@ const Ecommerce = () => {
               <p className='flex items-center gap-2 
               text-gray-600 hover:drop-shadow-xl'>
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDotFill />
                 </span>
                 <span>Expenses</span>
               </p>
               <p className='flex items-center gap-2 
               text-green-500 hover:drop-shadow-xl'>
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDotFill />
                 </span>
                 <span>Budget</span>
               </p>
